@@ -9,7 +9,7 @@ function withdrawMoney() {
     alert("Are you trying to deposit on an ATM");
   } else {
     let accountMoneyLeft = accountMoney - withdrawnMoney;
-    console.log(
+    alert(
       `You have withdrawn ${withdrawnMoney}$ and have ${accountMoneyLeft}$ left in your account!`
     );
   }
