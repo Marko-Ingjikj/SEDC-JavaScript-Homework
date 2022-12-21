@@ -27,11 +27,11 @@ button.addEventListener("click", function () {
 //   columns = document.querySelector("#columns").value;
 //   columns = Number(columns);
 //   let x = document.querySelector("table");
-//   for (let r = 0; r < rows; r++) {
-//     x.insertRow(r);
+//  for (let r = 0; r < rows; r++) {
+//     row.insertRow(r);
 //     for (let c = 0; c < columns; c++) {
-//       let y = x.insertCell(c);
-//       y.innerHTML = "Row-" + r + " Column-" + c;
+//       let column = row.insertCell(c);
+//       column.innerHTML = `Row- ${r + 1} Column ${c + 1}`;
 //     }
 //   }
 // });
