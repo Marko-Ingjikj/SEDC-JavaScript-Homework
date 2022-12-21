@@ -13,10 +13,10 @@ button.addEventListener("click", function () {
   columns = Number(columns);
 
   for (let r = 0; r < rows; r++) {
-    let x = document.getElementById("table").insertRow(r);
+   let row = document.getElementById("table").insertRow(r);
     for (let c = 0; c < columns; c++) {
-      let y = x.insertCell(c);
-      y.innerHTML = `Row- ${r + 1} Column ${c + 1}`;
+      let column = row.insertCell(c);
+      column.innerHTML = `Row- ${r + 1} Column ${c + 1}`;
     }
   }
 });
